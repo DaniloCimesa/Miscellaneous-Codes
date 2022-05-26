@@ -1,5 +1,5 @@
 
-
+```
 DECLARE @inputNumber INT=100
 DECLARE @a INT=2,@b INT=2,@count INT=0,@c INT=0,@PrimeNumberList NVARCHAR(MAX);
 
@@ -46,3 +46,4 @@ SET @a=@a+1;
 END
 
 PRINT @PrimeNumberList
+```
