@@ -1,4 +1,4 @@
-```
+
 
 declare @Num int = 2
 declare @Interval int = 1000
@@ -40,4 +40,4 @@ END
 
 print @list --Print the whole list. 
 
-```
+
