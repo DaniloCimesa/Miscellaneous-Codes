@@ -1,5 +1,4 @@
-How to import csv in SQL Server using Code.
-
+--How to import csv in SQL Server using Code.
 
 
 BULK INSERT composition
