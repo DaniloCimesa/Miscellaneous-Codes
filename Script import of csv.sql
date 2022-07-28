@@ -1,6 +1,6 @@
 How to import csv in SQL Server using Code.
 
-```
+
 
 BULK INSERT composition
 FROM 'D:\GHG_Tables.csv'
@@ -14,4 +14,4 @@ WITH
 
 SELECT *
 FROM composition
-```
+
