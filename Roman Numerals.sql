@@ -1,17 +1,19 @@
-
+--Procedure which converts arabic numerals into roman numerals.
 
 ALTER PROCEDURE RomanNumerals (@ID SMALLINT)
 
 AS
 
 BEGIN
+--Since there is no roman numbers higher than 3999, first we have to create a IF clause which will return a error message if a user types in a number
+--higher than 3999.
     IF @ID>3999
       BEGIN
         PRINT 'THERE'S NO ROMAN NUMBER HIGHER THAN 3999'
       END
     ELSE
       BEGIN
-
+--If a typed in number is lower than 3999 then execute the procedure.
         WITH CTE_A AS (
              SELECT
              @ID AS InputNUM
@@ -54,7 +56,7 @@ FROM RIMSKIBR
     END
 END
 
-
+EXEC RomanNumerals '5'
 
                 
                 
