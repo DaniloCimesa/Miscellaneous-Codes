@@ -56,7 +56,7 @@ FROM RIMSKIBR
     END
 END
 
-EXEC RomanNumerals '5'
+EXEC RomanNumerals 5
 
                 
                 
